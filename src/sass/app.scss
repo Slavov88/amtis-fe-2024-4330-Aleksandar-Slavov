@@ -540,17 +540,19 @@ h1.feedback{
 
 /*section request*/
 
-.request{
+section.request{
     margin-top: 320px;
     background-color: #FBF4DF;
-    padding-bottom: 300px;
+    padding-bottom: 400px;
+    
 }
-h1.request{
+h1.request, h1.media{
     font-family: var(--main-font);
     font-weight: 700;
     font-size: 80px;
     color:#222222;
     text-align: center;
+    
 }
 .sub-img-request{
 
@@ -570,11 +572,13 @@ h1.request{
     color: #3D3D3D;
     padding: 32px; 
     text-align: center;
+    
 }
 .info h2,h3{
     padding: 5px;
     margin: 0;
     line-height: 1;
+
     
 }
 .info h2{
@@ -586,6 +590,10 @@ h1.request{
 
     font-size: 24px;
 }
+.info{
+    
+    margin-left: 204px;
+}
 form{
     background-color: #F9EECD;
     width: 488px;
@@ -595,7 +603,7 @@ form{
     padding-left: 48px;
     padding-right: 48px;
     position: absolute;
-    margin-left: 790px;
+    margin-left: 950px;
     margin-top:-200px;
     border-radius: 8px;
 }
@@ -614,5 +622,30 @@ textarea{
     height: 10em;
 }
 /*section media*/
-
+section.media{
+    margin-top: 100px;
+}
+.news, .news.p{
+    width: 750px;
+    font-family: "Monrope";
+    margin-left: 345px;
+    margin-bottom: 100px;
+}
 /* footer */
+footer{
+    text-align: center;
+    justify-content: center;
+}
+
+footer .food{
+    width:96px;
+    margin-left: 820px;
+}
+footer .logo-footer{
+    margin-left: 720px;
+    width:15%;
+}
+footer nav{
+    margin: 0 auto;
+    margin-right: 300px;
+}
